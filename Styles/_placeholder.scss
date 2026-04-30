@@ -1,0 +1,16 @@
+@use 'variables' as v;
+
+%hover-gray {
+    &:hover {
+        cursor: pointer;
+        color: v.$color_gray;
+    }
+}
+
+
+%hover-gray-icon {
+    &:hover {
+        cursor: pointer;
+        stroke: v.$color_gray;
+    }
+}

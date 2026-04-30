@@ -1,0 +1,26 @@
+{
+  "name": "projest_3",
+  "version": "1.0.0",
+  "description": "langing page",
+  "homepage": "https://github.com/sergeevna4526-hub/Project_3#readme",
+  "bugs": {
+    "url": "https://github.com/sergeevna4526-hub/Project_3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeevna4526-hub/Project_3.git"
+  },
+  "license": "ISC",
+  "author": "Kseniya",
+  "type": "commonjs",
+  "source": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist",
+    "parcel:watch": "parcel serve --dist-dir public",
+    "parcel:build": "parcel build --dist-dir build --public-url ./"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4",
+    "sass": "^1.99.0"
+  }
+}
