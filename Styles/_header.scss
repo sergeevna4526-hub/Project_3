@@ -57,7 +57,7 @@ background-color: color.adjust(v.$color_white, $alpha: -0.85);
                 }
                
             }
-                @media  (max-width: v.$madia_l) {
+                @media  (max-width: v.$media_l) {
                     .list {
                         @include m.d-flex(center,center,nowrap, row, min(100px, 5vw), 0);
                         padding: 0 0 0 0;
