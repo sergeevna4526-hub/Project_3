@@ -6,6 +6,11 @@
         color: v.$color_gray;
     }
 }
+   %hover-light {
+    &:hover {
+        cursor: pointer;
+        color: v.$color_white;
+    }}
 
 
 %hover-gray-icon {
